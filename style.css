@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background-image: url(http://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-48.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.fighter {
+    position: absolute;
+    bottom: 0;
+    height: 350px;
+}
+
+/* Player positions */
+#player1 {
+    left: 50px;
+}
+
+#player2 {
+    right: 50px;
+    transform: scaleX(-1);
+}
